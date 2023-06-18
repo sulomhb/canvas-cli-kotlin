@@ -19,6 +19,7 @@ fun fetch_API(url : String) {
     return response.body()
  }
 
+
 fun main() {
     fetch_API("https://uia.instructure.com/api/v1/courses/");
     println("Test");
